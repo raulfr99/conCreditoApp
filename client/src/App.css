@@ -1,0 +1,95 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #00ac68;
+  height: 100%;
+  
+}
+
+.informacion{
+  align-self: center;
+  display:-webkit-inline-flex;
+ 
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.884);
+}
+
+.informacion input{
+  width: 350px;
+  height: 40px;
+  font-size: 1.5vh;
+  border-radius: 4px;
+  position: relative;
+  background-color: rgba(255,255,255,0.3);
+  transition: 0.6s all;
+  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.informacion input:hover {
+  background-color: #00ac6771;
+  box-shadow: 0px 4px 20px 0px rgba(138, 10, 10, 0.05);
+}
+
+
+.informacion button{
+  height: 50px;
+  width: 200px;
+  margin-top: 2%;
+}
+
+.informacion button:hover{
+  cursor: pointer;
+  height: 60px;
+  width: 220px;
+}
+.modalBody{
+  flex-direction: row;
+  align-content: center;
+  display: flex;  
+ 
+}
+.labelBody{
+  font-size: 25px;
+  color: gray;
+ 
+}
+.subBody{
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+
+.documentContainer{
+  
+}
+.sendButton{
+  background-color: #00ac68; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.labelInput{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  font-size: 20px;
+  color:rgba(44, 44, 44, 0.651);
+}
+.toastContainer{
+  position: absolute;
+  margin-right: 10%;
+  margin-top: 3%;
+  top: 0;
+  right: 0;
+}
